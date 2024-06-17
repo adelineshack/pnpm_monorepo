@@ -1,0 +1,14 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": "src",
+    "outDir": "./dist",
+    "typeRoots": ["./node_modules/@types", "./dist"],
+    "declaration": true,
+    "declarationDir": "./dist",
+    "resolveJsonModule": true
+  },
+  "exclude": ["node_modules", "build", "dist", "rollup.config.js"],
+  "include": ["src", "types/**/*.dts"]
+}

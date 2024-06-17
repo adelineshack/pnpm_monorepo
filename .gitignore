@@ -1,0 +1,14 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+node_modules/*
+app/node_modules/*
+libs/node_modules/*
+.nx
+
+
+
+.nx/cache
+.nx/workspace-data
