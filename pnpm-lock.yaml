@@ -63,6 +63,9 @@ importers:
       npm-run-all:
         specifier: ^4.1.5
         version: 4.1.5
+      parallelshell:
+        specifier: ^3.0.2
+        version: 3.0.2
       pre-commit:
         specifier: ^1.2.2
         version: 1.2.2
@@ -4171,6 +4174,10 @@ packages:
   pacote@17.0.7:
     resolution: {integrity: sha512-sgvnoUMlkv9xHwDUKjKQFXVyUi8dtJGKp3vg6sYy+TxbDic5RjZCHF3ygv0EJgNRZ2GfRONjlKPUfokJ9lDpwQ==}
     engines: {node: ^16.14.0 || >=18.0.0}
+    hasBin: true
+
+  parallelshell@3.0.2:
+    resolution: {integrity: sha512-aW73W8tmYiFZtQi41pweV3WWT6o/EvSxAVQHbumOhN53H47OuWQwrRc11xQ2i44GFvR5AjtzhD92r8Kv9X+7Iw==}
     hasBin: true
 
   parent-module@1.0.1:
@@ -10436,6 +10443,8 @@ snapshots:
     transitivePeerDependencies:
       - bluebird
       - supports-color
+
+  parallelshell@3.0.2: {}
 
   parent-module@1.0.1:
     dependencies:

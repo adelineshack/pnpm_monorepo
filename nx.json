@@ -23,5 +23,13 @@
         "serveStaticTargetName": "serve-static"
       }
     }
-  ]
+  ],
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "nx/tasks-runners/default",
+      "options": {
+        "parallel": 5
+      }
+    }
+  }
 }

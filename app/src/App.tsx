@@ -1,11 +1,11 @@
 import './App.css';
 
-import { giveMeDate, giveMeTrue, giveMewChance3 } from 'libs';
+import { giveMeDate, giveMeTrue, giveMewNewLife } from 'libs';
 import React, { useState } from 'react';
 
 function App() {
   const [count, setCount] = useState(0);
-  const isTrueswdee = giveMewChance3();
+
   const date = giveMeDate();
 
   return (
@@ -21,7 +21,7 @@ function App() {
             🪂 Click me : {count}
           </button>
           <p> Don&apos;t forgot to install Eslint and Prettier in Your Vscode.</p>
-          {date.toString()} часов
+          {date.toString()}
           <p>
             Mess up the code in <code>App.tsx </code> and save the file.
           </p>

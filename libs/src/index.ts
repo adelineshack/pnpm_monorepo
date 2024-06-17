@@ -6,6 +6,6 @@ export const giveMeDate = () => {
   return new Date().getHours();
 };
 
-export const giveMewChance3 = () => {
+export const giveMewNewDay = () => {
   return 'No';
 };
